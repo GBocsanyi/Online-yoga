@@ -1,0 +1,17 @@
+:root {
+  --gray: #525e65;
+  --white:  #efeeed;
+  --header-text: #d0e5ef;
+  --black: #050505;
+  
+}
+
+
+body {
+  background-color: var(--white);
+}
+
+.fooldal-kep {
+
+  max-width: auto;
+}

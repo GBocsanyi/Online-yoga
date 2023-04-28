@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Yoga</title>
+    <!-- FONTAWESOME CDN LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <!-- HEADER -->
+    <header> 
+
+        <a href="#fooldal">Logo</a>
+        <nav>
+            <ul>
+                <li><a href="#fooldal">Főoldal</a></li>
+                <li><a href="#rolam">Rólam</a></li>
+                <li><a href="#kurzusok">Kurzusok</a></li>
+                <li><a href="#bejelentkezes">Bejelentkezés</a></li>
+                <li><a href="#kapcsolat">Kapcssolat</a></li>
+                
+            </ul>
+        </nav>    
+        
+    </header>
+
+    <!-- MAIN -->
+
+    <main>
+        <section id="fooldal">
+            <div class="fooldal-kep">
+                <img src="./assets/main-pic.png" alt="main-pic">
+            </div>
+            <div class="fooldal-szoveg">
+                <h1>Online Jógaoktatás</h1>
+                <h2>Valami szöveg</h2>
+                <a href="bejelentkezes" class="fooldal-gomb">Bejelentkezés gomb</a>
+            </div>
+        </section>
+        <section id="rolam">
+            <div class="rolam-bemutatkozas">
+                    <h2>Hello</h2>
+                    <h3>Az én nevem</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ratione, quasi optio voluptatum dolor neque eius laborum quisquam itaque quibusdam, labore accusamus minus perferendis obcaecati est saepe sequi eligendi unde eveniet, architecto quos. Error, odio odit dignissimos vero amet corrupti. Inventore, sed qui laboriosam itaque rerum magni quidem nihil aperiam.</p>
+            </div>
+            <div class="mit-tanitok">
+                <h2>Mit tudok megtanítani</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim placeat officia porro dignissimos culpa, eum sapiente debitis iste molestiae est praesentium aut voluptates laborum voluptatibus, ex modi temporibus iure facere error cum cupiditate fuga nulla sint. Incidunt cumque nesciunt veniam voluptatem ut magni, tempora, corporis recusandae, corrupti vitae rem praesentium?</p>
+            </div>
+        </section>
+        <section id="kurzusok">
+            <div class="kurzusok">
+                <h2>Kurzusok</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, non sit aut aperiam nulla ex deserunt dolorum omnis facere magnam suscipit accusamus sed error ad, libero provident obcaecati ab fugit voluptates ipsa ipsum quod laborum rerum sunt. Excepturi nihil earum aspernatur, facere dolore at, reiciendis natus magnam, atque minus provident.</p>
+            </div>
+        </section>
+
+                       <!-- BEJELENTKEZÉS RENDSZER -->
+        <section id="bejelentkezes">
+            <div class="bejelentkezes">
+                <h2>Bejelentkezés</h2>
+                <p>Ide kell egy bejelentkező rendszer</p>
+            </div>
+        </section>
+
+                        <!-- KAPCSOLAT -->
+        <section id="kapcsolat">
+            <form 
+                class="kapcsolat-form" action="https://formspree.io/f/mnqyleye"
+                method="POST">
+                
+
+               <label>
+                    Név
+                    <input type="text" name="nev" id="nev" placeholder="Név">
+
+               </label>
+               <label>
+                Email
+                <input type="email" name="email" id="email" placeholder="Email">
+               </label>
+               <label>
+                Üzenet
+                <textarea name="uzent" id="uzenet" placeholder="Üzenet"></textarea>
+               </label>
+                <input type="submit" value="Küld">
+                <!-- NÉV -->
+                <!-- EMAIL -->
+                <!-- ÜZENET-->
+                <!-- GOMB -->
+
+            </form>
+        
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <p>Copyright <span>&copy;</span> 2023 Bocsányi Gábor</p>
+        <a href="#fooldal"><i class="fa-solid fa-hand-pointer">Vissza</i></a>
+        
+    </footer>
+</body>
+</html>
