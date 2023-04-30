@@ -6,12 +6,38 @@
   
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 body {
   background-color: var(--white);
+  box-sizing: border-box;
+}
+
+.fooldal-szoveg {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: antiquewhite;
+   
+}
+
+h1 {
+  padding: 1px;
 }
 
 .fooldal-kep {
+   width: 100%;
+}
 
-  width: 50%;
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+
 }
