@@ -1,0 +1,34 @@
+:root {
+    --gray: #322d34;
+    --white:  #efeeed;
+    --header-text: #d0e5ef;
+    --black: #050505;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+    body {
+      font-style: ;
+      
+      background-color: var(--white);
+      color: var(--gray)
+      
+      
+    }
+    a {
+       color: #050505;
+       font-size: 50px
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    p {
+      padding: 20px;
+      text-align: justify;
+    }
