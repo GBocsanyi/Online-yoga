@@ -15,32 +15,35 @@
     box-sizing: border-box;
   }
 
+  
   body {
     background-color: var(--white);
     color: var(--gray);
     font-family: 'Philosopher', sans-serif;
     
   }
-
-
-
-header {
-  background-color: var(--gray);
-  opacity: 80%;
-  position: fixed;
-  width: 100%;
   
-}
-header a {
+  header {
+    position:fixed ;
+    background-color: var(--gray);
+    top: 0;
+    opacity: 0.7;
+    width: 100%;
+  }
+
+  
+  
+  header a {
+   
   color: var(--white);
   text-decoration: none;
-}
+  }
 
 .logo {
   max-height: 2rem;
   
 
-}
+  }
 
 ul {
   display: flex;
@@ -52,30 +55,32 @@ ul {
   
 }
 
+#fooldal {
+  margin-top: 50px;
+  
+}
 
 .fooldal-szoveg {
   display: flex;
   flex-direction: column;
   text-align: center;
   color: var(--gray);
+  /* margin-top: 50px; */
   
 }
 
 
 h1 {
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   text-decoration: underline 1px;
   font-size: 2rem;
 }
 
-.h2-fooldal {
-  padding: 10px;
-  
-}
 
 .foglalas-span {
-  padding: 7px;
+  margin-top: 100px;
+  padding: 5px;
   background-color: #ffffff;
   border-radius: 5px;
   color: var(--black);
@@ -88,7 +93,7 @@ h1 {
 .mantra {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 5px;
   margin-left: 18%;
   margin-right: 18%;
   text-shadow: 0.5px 0.5px 7px rgb(124, 121, 121);
@@ -171,7 +176,7 @@ p {
   padding: 7px;
   margin-left: 3rem;
   background-color: #dbd7dd;
-  border-radius: 10px;
+  border-radius: 5px;
   color: var(--black);
   text-shadow: 1px 1px 6px #615b5b;
   font-size: 1rem;
@@ -194,7 +199,7 @@ p {
   padding: 7px;
   margin-left: 3rem;
   background-color: #dbd7dd;
-  border-radius: 10px;
+  border-radius: 5px;
   color: var(--black);
   text-shadow: 1px 1px 6px #615b5b;
   font-size: 1rem;
@@ -212,7 +217,7 @@ p {
   padding: 7px;
   margin-left: 3rem;
   background-color: #dbd7dd;
-  border-radius: 10px;
+  border-radius: 5px;
   color: var(--black);
   text-shadow: 1px 1px 6px #615b5b;
   font-size: 1rem;
@@ -235,7 +240,7 @@ p {
   padding: 7px;
   margin-left: 3rem;
   background-color: #dbd7dd;
-  border-radius: 10px;
+  border-radius: 5px;
   color: var(--black);
   text-shadow: 1px 1px 6px #615b5b;
   font-size: 1rem;
@@ -257,7 +262,7 @@ p {
   padding: 7px;
   margin-left: 3rem;
   background-color: #dbd7dd;
-  border-radius: 10px;
+  border-radius: 5px;
   color: var(--black);
   text-shadow: 1px 1px 6px #615b5b;
   font-size: 1rem;
@@ -291,7 +296,7 @@ p {
   background-color: var(--gray);
   color: var(--white);
   padding: 7px;
-  border-radius: 10px;
+  border-radius: 5px;
   /* margin-right: 50px; */
 }
 
@@ -300,7 +305,7 @@ p {
   background-color: var(--gray);
   color: var(--white);
   padding: 7px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 footer {
@@ -319,11 +324,15 @@ footer i {
   padding-bottom: 20px;
   font-size: 2rem;
 }
-footer div {
-display: flex;
-flex-direction: column;
-justify-content: right;
+
+.fa-solid {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  text-shadow: 1px 1px 6px #615b5b;
 }
+
+
 
 
 
