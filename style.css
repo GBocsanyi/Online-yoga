@@ -63,7 +63,7 @@ ul {
 .fooldal-szoveg {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  /* text-align: center; */
   color: var(--gray);
   /* margin-top: 50px; */
   
