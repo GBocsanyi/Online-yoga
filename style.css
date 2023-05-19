@@ -15,6 +15,10 @@
     box-sizing: border-box;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   
   body {
     background-color: var(--white);
@@ -131,6 +135,46 @@ p {
   text-decoration: underline solid 1px;
 }
 
+.elso-p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.masodik-p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.harmadik-p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.negyedik-p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.otodik-p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.hatodik-p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.hetedik-p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nyolcadik-p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .rolam-h3{
   padding: 20px;
   text-align: left;
@@ -145,8 +189,9 @@ p {
   padding-bottom: 20px;
   padding-top: 20px;
   text-align: center;
-  background-image: linear-gradient( #efeeed, rgb(245, 228, 212));
-  border-radius: 30px;
+  background-image: linear-gradient( #efeeed, rgb(219, 209, 200));
+  
+ 
   
 }
 
@@ -295,16 +340,19 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-left: 20%;
-  margin-right: 20%;
+  /* margin-left: 20%; */
+  /* margin-right: 20%; */
+  background-color: var(--gray);
+  opacity: 0.7;
   
 
 }
 
 
 footer i {
-  color: var(--gray);
+  color: var(--white);
   padding-bottom: 20px;
+  padding-top: 20px;
   font-size: 2rem;
 }
 
@@ -313,9 +361,14 @@ footer i {
   bottom: 2rem;
   right: 2rem;
   text-shadow: 1px 1px 6px #615b5b;
+  color: var(--gray);
+  font-size: 2rem;
 }
 
 .copy {
+  background-color: var(--gray);
+  opacity: 0.7;
+  color: var(--white);
   text-align: center;
 }
 
