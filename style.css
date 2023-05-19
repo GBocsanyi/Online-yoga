@@ -33,7 +33,7 @@
 
   
   
-  header a {
+ header a {
    
   color: var(--white);
   text-decoration: none;
@@ -63,9 +63,8 @@ ul {
 .fooldal-szoveg {
   display: flex;
   flex-direction: column;
-  /* text-align: center; */
   color: var(--gray);
-  /* margin-top: 50px; */
+  
   
 }
 
@@ -110,8 +109,14 @@ p {
 }
 .udv {
   text-align: center;
-  padding-top:10px;
+  padding-top:20px;
   font-size: 1.2rem;
+}
+
+.rolam-div {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
 }
 
 .rolam-h2 {
@@ -129,6 +134,7 @@ p {
 .rolam-h3{
   padding: 20px;
   text-align: left;
+  font-size: 20px;
 }
 
 .mit-tanitok {
@@ -137,7 +143,11 @@ p {
 }
 .h2-szolgaltatasok {
   padding-bottom: 20px;
+  padding-top: 20px;
   text-align: center;
+  background-image: linear-gradient( #efeeed, rgb(245, 228, 212));
+  border-radius: 30px;
+  
 }
 
 .p-szolgaltatasok {
@@ -149,7 +159,7 @@ p {
 }
 
 .szolgaltatasok {
-  padding: 20px;
+  
   text-align: left;
 }
 
@@ -157,10 +167,15 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
+  
 }
 
-.alkalom {
-  padding: 20px;
+.h3-szolgaltatasok {
+  padding-left: 20px;
+}
+
+.alkalom-p {
+  padding-top:  20px;
 }
 
 .alkalom-foglalas {
@@ -176,17 +191,20 @@ p {
   
 }
 
-
-.honap-f-div {
+.h3-csoportos {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.csoportos-div {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.honap-f {
-  padding: 20px;
+.csoportos-p {
+  padding-top: 20px;
 }
 
-.honap-f-foglalas {
+.csoportos-foglalas {
   padding: 7px;
   margin-left: 3rem;
   background-color: #dbd7dd;
@@ -198,13 +216,23 @@ p {
   align-items: center;
   
 }
-.honap-sz-div {
+
+.h3-egyhonap {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.egyhonap-div {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.honap-sz-foglalas {
+.egyhonap {
+  padding-top: 20px;
+}
+
+.egyhonap-foglalas {
   padding: 7px;
   margin-left: 3rem;
   background-color: #dbd7dd;
@@ -215,54 +243,6 @@ p {
   text-decoration: none;
   align-items: center;
 
-}
-
-.honap-sz {
-  padding: 20px;
-}
-
-.harom-honap-div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.harom-honap-foglalas {
-  padding: 7px;
-  margin-left: 3rem;
-  background-color: #dbd7dd;
-  border-radius: 5px;
-  color: var(--black);
-  text-shadow: 1px 1px 6px #615b5b;
-  font-size: 1rem;
-  text-decoration: none;
-  align-items: center;
-}
-
-.harom-honap {
-  padding: 20px;
-}
-
-.filozofia-div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.filozofia-foglalas {
-  padding: 7px;
-  margin-left: 3rem;
-  background-color: #dbd7dd;
-  border-radius: 5px;
-  color: var(--black);
-  text-shadow: 1px 1px 6px #615b5b;
-  font-size: 1rem;
-  text-decoration: none;
-  align-items: center;
-}
-
-.filozofia {
-  padding: 20px;
 }
 
 .bejelentkezes {
@@ -288,11 +268,23 @@ p {
   color: var(--white);
   padding: 7px;
   border-radius: 5px;
-  /* margin-right: 50px; */
+  margin-bottom: 20px;
 }
 
+.nev {
+  margin-bottom: 10px;
+}
+
+.email {
+  margin-bottom: 10px;
+}
+
+.uzenet {
+  margin-bottom: 10px;
+}
 
 .kuld {
+  margin-top: 10px;
   background-color: var(--gray);
   color: var(--white);
   padding: 7px;
@@ -323,7 +315,74 @@ footer i {
   text-shadow: 1px 1px 6px #615b5b;
 }
 
+.copy {
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px ) {
+  .main {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 800px ) {
+  .main {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 700px ) {
+  .main {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .mantra {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .h2-szolgaltatasok {
+    padding: 20px;
+    text-align: center;
+    
+  }
+
+  .szolgaltatasok {
+    padding-top: 0px;
+    text-align: left;
+  }
 
 
+  .p-szolgaltatasok {
+    font-weight: bold;
+    text-decoration: underline 1px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .alkalom-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .alkalom {
+    padding: 0;
+  }
+
+   .csoportos-div {
+    flex-direction: column;
+   }
+  
+   .egyhonap-div {
+    flex-direction: column;
+   }
+}
 
 
