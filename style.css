@@ -187,10 +187,12 @@ p {
   font-size: 20px;
 }
 .h2-szolgaltatasok {
+  margin-left: 30%;
+  margin-right: 30%;
   padding-bottom: 20px;
   padding-top: 20px;
   text-align: center;
-  background-image: linear-gradient( #efeeed, rgb(219, 209, 200));
+  background-image: radial-gradient( rgb(230, 220, 212),#efeeed);
   
  
   
