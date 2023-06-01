@@ -28,6 +28,8 @@
   }
   
   header {
+    display: flex;
+    justify-content: space-between;
     position:fixed ;
     background-color: var(--gray);
     top: 0;
@@ -44,17 +46,20 @@
   padding: 10px;
   }
 
-.logo {
-  max-height: 5rem;
-  
+nav {
+  display: flex;
+  }
   
 
+  
+  .logo {
+    max-width: 10rem;
   }
 
+
 ul {
-  padding: 50px;
+
   display: flex;
-  flex-wrap: wrap;
   justify-content: flex-end;
   list-style-type: none;
   align-items: center;
@@ -62,6 +67,8 @@ ul {
 
   
 }
+
+
 
 
 #fooldal {
@@ -176,6 +183,21 @@ p {
 }
 
 .nyolcadik-p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.kilencedik-p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.tizedik-p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.tizenegy-p {
   padding-top: 20px;
   padding-bottom: 20px;
 }
