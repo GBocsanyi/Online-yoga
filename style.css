@@ -378,6 +378,12 @@ p {
   text-align: center;
 }
 
+.hirlevel {
+  padding: 20px;
+  margin-left: 25%;
+}
+
+
 .kapcsolat-form {
   display: flex;
   flex-direction: column;
