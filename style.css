@@ -162,6 +162,12 @@ p {
   padding-right: 10px;
 }
 
+.adomany-kep {
+  float: left;
+  max-width: 15rem;
+  max-height: 15rem;
+  padding-right: 10px;
+}
 
 .maganora-kep {
   float: left;
@@ -285,6 +291,22 @@ p {
   text-align: left;
 }
 
+.adomany-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.h3-adomany {
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.adomany-p {
+  padding-top:  20px;
+}
+
 .alkalom-div {
   display: flex;
   flex-direction: row;
@@ -294,6 +316,7 @@ p {
 
 .h3-szolgaltatasok {
   padding-left: 20px;
+  padding-top: 20px;
   font-size: 20px;
 }
 
@@ -301,6 +324,18 @@ p {
   padding-top:  20px;
 }
 
+.alkalom-foglalass {
+  padding: 7px;
+  margin-left: 3rem;
+  /* background-color: #dbd7dd; */
+  border-radius: 5px;
+  color: var(--white);
+  /* text-shadow: 1px 1px 6px #615b5b; */
+  font-size: 1rem;
+  text-decoration: none;
+  align-items: center;
+  
+}
 .alkalom-foglalas {
   padding: 7px;
   margin-left: 3rem;
