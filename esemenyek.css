@@ -1,6 +1,6 @@
 :root {
   --gray: #322d34;
-  --white:  #efeeed;
+  --white:  #f8f3fa;
   --header-text: #d0e5ef;
   --black: #050505;
   font-family: 'Bad Script', cursive;
@@ -129,17 +129,29 @@ p {
   font-size: 1.2rem;
 }
 
-.rolam-div {
+#rolam {
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding-top: 30px;
 }
+
 
 .rolam-h2 {
   padding: 20px;
   text-align: center;
   font-style: normal;
 }
+.rolam-h3 {
+text-decoration: underline solid 1px;
+padding: 20px
+
+}
+
+.p-kep {
+  text-align: center;
+}
+
 
 .h2span {
   font-style: italic;
@@ -149,269 +161,19 @@ p {
 
 
 .rolam-kep {
-  float: left;
-  max-width: 15rem;
-  max-height: 15rem;
-  padding-right: 10px;
-  
-}
-.mit-tkep {
-  float: left;
-  max-width: 15rem;
-  max-height: 15rem;
-  padding-right: 10px;
-}
-
-.adomany-kep {
-  float: left;
-  max-width: 15rem;
-  max-height: 15rem;
-  padding-right: 10px;
-}
-
-.maganora-kep {
-  float: left;
-  max-width: 15rem;
-  max-height: 15rem;
-  padding-right: 10px;
-}
-
-.csoportkep {
-  float: left;
-  max-width: 15rem;
-  max-height: 15rem;
-  padding-right: 10px;
-}
-
-.egyhonap-kep {
-  float: left;
-  max-width: 15rem;
-  max-height: 15rem;
-  padding-right: 10px;
-}
-
-.sectionblog {
-  display: flex;
-  flex-direction: column;
-}
-.elso-p {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.posztkep {
-  float: left;
-  max-width: 15rem;
-  max-height: 15rem;
-  padding-right: 10px;
-}
-
-.masodik-p {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.harmadik-p {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.negyedik-p {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.otodik-p {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.hatodik-p {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.hetedik-p {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.nyolcadik-p {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.kilencedik-p {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.tizedik-p {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.tizenegy-p {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.rolam-h3{
-  padding: 20px;
-  text-align: left;
-  font-size: 20px;
-}
-
-.mit-tanitok {
-  padding: 20px;
-  text-align: left;
-  font-size: 20px;
-}
-.h2-szolgaltatasok {
-  margin-left: 30%;
-  margin-right: 30%;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 60%;
   text-align: center;
-  background-image: radial-gradient( rgb(230, 220, 212),#efeeed);
-  
- 
-  
-}
-
-.p-szolgaltatasok {
-  font-weight: bold;
-  text-decoration: underline 1px;
-  padding: 20px;
-  text-align: center;
-  font-size: 1.2rem;
-}
-
-.szolgaltatasok {
-  
-  text-align: left;
-}
-
-.adomany-div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  
-}
-
-.h3-adomany {
-  padding-left: 20px;
-  font-size: 20px;
-}
-
-.adomany-p {
-  padding-top:  20px;
-}
-
-.alkalom-div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  
-}
-
-.h3-szolgaltatasok {
-  padding-left: 20px;
+  /* max-height: 50rem; */
+  /* padding-right: 10px; */
   padding-top: 20px;
-  font-size: 20px;
-}
-
-.alkalom-p {
-  padding-top:  20px;
-}
-
-.alkalom-foglalass {
-  padding: 7px;
-  margin-left: 3rem;
-  /* background-color: #dbd7dd; */
-  border-radius: 5px;
-  color: var(--white);
-  /* text-shadow: 1px 1px 6px #615b5b; */
-  font-size: 1rem;
-  text-decoration: none;
-  align-items: center;
+  padding-bottom: 20px;
   
-}
-.alkalom-foglalas {
-  padding: 7px;
-  margin-left: 3rem;
-  background-color: #dbd7dd;
-  border-radius: 5px;
-  color: var(--black);
-  text-shadow: 1px 1px 6px #615b5b;
-  font-size: 1rem;
-  text-decoration: none;
-  align-items: center;
   
 }
 
-.h3-csoportos {
-  padding-left: 20px;
-  padding-top: 20px;
-  font-size: 20px;
-}
-.csoportos-div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.csoportos-p {
-  padding-top: 20px;
-}
-
-.csoportos-foglalas {
-  padding: 7px;
-  margin-left: 3rem;
-  background-color: #dbd7dd;
-  border-radius: 5px;
-  color: var(--black);
-  text-shadow: 1px 1px 6px #615b5b;
-  font-size: 1rem;
-  text-decoration: none;
-  align-items: center;
-  
-}
-
-.h3-egyhonap {
-  padding-top: 20px;
-  padding-left: 20px;
-  font-size: 20px;
-}
-
-.egyhonap-div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.egyhonap {
-  padding-top: 20px;
-}
-
-.egyhonap-foglalas {
-  padding: 7px;
-  margin-left: 3rem;
-  background-color: #dbd7dd;
-  border-radius: 5px;
-  color: var(--black);
-  text-shadow: 1px 1px 6px #615b5b;
-  font-size: 1rem;
-  text-decoration: none;
-  align-items: center;
-
-}
-
-.bejelentkezes {
-  padding: 20px;
-}
-
-.idopontfoglalas {
-  text-align: center;
-}
 
 .hirlevel {
   padding: 20px;
@@ -434,7 +196,6 @@ p {
   background-color: var(--gray);
   color: var(--white);
   padding: 7px;
-  
   border-radius: 5px;
   margin-bottom: 20px;
 }
@@ -484,14 +245,6 @@ footer i {
   font-size: 2rem;
 }
 
-.fa-solid {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  text-shadow: 1px 1px 6px #615b5b;
-  color: var(--gray);
-  font-size: 2rem;
-}
 
 .copy {
   background-color: var(--gray);
