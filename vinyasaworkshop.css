@@ -18,6 +18,8 @@
     html {
       scroll-behavior: smooth;
     }
+    
+    
   
     
     body {
@@ -26,6 +28,8 @@
       font-family: 'Philosopher', sans-serif;
       
     }
+    
+    
     
     header {
       display: flex;
@@ -135,6 +139,8 @@
     align-items: center;
     padding-top: 30px;
   }
+
+  
   
   
   .rolam-h2 {

@@ -136,7 +136,30 @@ p {
   padding-top: 30px;
 }
 
+.esemeny1 {
+  background-color: rgba(118, 118, 112, 0.164);
+  border: solid rgba(0, 0, 0, 0.156) 2px;
+  border-radius: 15px;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  }
 
+  .esemeny2 {
+  background-color: rgba(118, 118, 112, 0.164);
+  border: solid rgba(0, 0, 0, 0.156) 2px;
+  border-radius: 15px;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  }
+
+  .esemeny3 {
+  background-color: rgba(118, 118, 112, 0.164);
+  border: solid rgba(0, 0, 0, 0.156) 2px;
+  border-radius: 15px;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  }
+ 
 .rolam-h2 {
   padding: 20px;
   text-align: center;
