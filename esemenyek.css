@@ -1,6 +1,6 @@
 :root {
   --gray: #322d34;
-  --white:  #f8f3fa;
+  --white:  #efeeed;
   --header-text: #d0e5ef;
   --black: #050505;
   font-family: 'Bad Script', cursive;
@@ -137,7 +137,7 @@ p {
 }
 
 .esemeny1 {
-  background-color: rgba(118, 118, 112, 0.164);
+  background-color: #ceccca65;
   border: solid rgba(0, 0, 0, 0.156) 2px;
   border-radius: 15px;
   padding-bottom: 2rem;
@@ -145,7 +145,7 @@ p {
   }
 
   .esemeny2 {
-  background-color: rgba(118, 118, 112, 0.164);
+  background-color: #ceccca65;
   border: solid rgba(0, 0, 0, 0.156) 2px;
   border-radius: 15px;
   padding-bottom: 2rem;
@@ -153,18 +153,14 @@ p {
   }
 
   .esemeny3 {
-  background-color: rgba(118, 118, 112, 0.164);
+  background-color: #ceccca65;
   border: solid rgba(0, 0, 0, 0.156) 2px;
   border-radius: 15px;
   padding-bottom: 2rem;
   margin-bottom: 2rem;
   }
  
-.rolam-h2 {
-  padding: 20px;
-  text-align: center;
-  font-style: normal;
-}
+
 .rolam-h3 {
 text-decoration: underline solid 1px;
 padding: 20px

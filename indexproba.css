@@ -1,0 +1,622 @@
+:root {
+    --gray: #322d34;
+    --white:  #efeeed;
+    --header-text: #d0e5ef;
+    --black: #050505;
+    font-family: 'Bad Script', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Macondo', cursive;
+    font-family: 'Philosopher', sans-serif;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+    html {
+      scroll-behavior: smooth;
+    }
+  
+    
+    body {
+      background-color: var(--white);
+      color: var(--gray);
+      font-family: 'Philosopher', sans-serif;
+      
+    }
+    
+    header {
+      display: flex;
+      justify-content: space-between;
+      /* position: sticky ; */
+      background-color: var(--gray);
+      top: 0;
+      /* opacity: 0.7; */
+      width: 100%;
+    }
+  
+    
+    
+   header a {
+     
+    color: var(--white);
+    text-decoration: none;
+    padding: 10px;
+    }
+  
+  nav {
+    display: flex;
+    }
+    
+  
+    
+    .logo {
+      max-width: 10rem;
+    }
+  
+  
+  ul {
+  
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    align-items: center;
+    font-size: 1.2rem;
+  
+    
+  }
+  
+  
+  
+  
+  #fooldal {
+    margin-top: 20px;
+    
+  }
+  
+  .fooldal-szoveg {
+    display: flex;
+    flex-direction: column;
+    color: var(--gray);
+    
+    
+  }
+  
+  
+  h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline 1px;
+    font-size: 2rem;
+  }
+  
+  
+  
+  
+  .mantra {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 18%;
+    margin-right: 18%;
+    text-shadow: 0.5px 0.5px 7px rgb(124, 121, 121);
+    border: solid rgb(214, 209, 209) 0.05px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    
+    
+  }
+  .fooldal-kep {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .main {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-align: center;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  .udv {
+    text-align: center;
+    padding-top:20px;
+    font-size: 1.2rem;
+  }
+  
+  .rolam-div {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  
+  .rolam-h2 {
+    padding: 20px;
+    text-align: center;
+    font-style: normal;
+  }
+  
+  .h2span {
+    font-style: italic;
+    font-size: 18px;
+    text-decoration: underline solid 1px;
+  }
+  .section1{
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #ceccca65;
+  /* border: solid rgba(0, 0, 0, 0.156) 2px; */
+  border-radius: 15px;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  -webkit-box-shadow: 14px 17px 15px 1px rgba(158,155,158,0.68);
+  -moz-box-shadow: 14px 17px 15px 1px rgba(158,155,158,0.68);
+  box-shadow: 14px 17px 15px 1px rgba(158,155,158,0.68);
+
+  }
+
+  .section2{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #9d9595;
+    justify-content: space-around;
+    /* max-width: 80%; */
+
+  }
+
+  .kep1 {
+    /* background-color: aqua; */
+  }
+  
+  .kep2 {
+    display: flex;
+
+    align-items: center;
+    text-align: center;
+  }
+
+  .kep3 {
+    /* background-color: rgb(68, 201, 92); */
+  }
+
+  .kep-1 {
+    max-width: 100%;
+    
+  }
+
+  
+
+  .rolam-kep {
+    float: left;
+    max-width: 15rem;
+    max-height: 15rem;
+    padding-right: 10px;
+    
+  }
+  
+  
+  .adomany-kep {
+    float: left;
+    max-width: 15rem;
+    max-height: 15rem;
+    padding-right: 10px;
+  }
+  
+  .maganora-kep {
+    float: left;
+    max-width: 15rem;
+    max-height: 15rem;
+    padding-right: 10px;
+  }
+  
+  .csoportkep {
+    float: left;
+    max-width: 15rem;
+    max-height: 15rem;
+    padding-right: 10px;
+  }
+  
+  .egyhonap-kep {
+    float: left;
+    max-width: 15rem;
+    max-height: 15rem;
+    padding-right: 10px;
+  }
+  
+  .sectionblog {
+    display: flex;
+    flex-direction: column;
+  }
+  .elso-p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .posztkep {
+    float: left;
+    max-width: 15rem;
+    max-height: 15rem;
+    padding-right: 10px;
+  }
+  
+  .masodik-p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .harmadik-p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .negyedik-p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .otodik-p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .hatodik-p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .hetedik-p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .nyolcadik-p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .kilencedik-p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .tizedik-p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .tizenegy-p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .rolam-h3{
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .mit-tanitok {
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+  }
+  .h2-szolgaltatasok {
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    background-image: radial-gradient( rgb(230, 220, 212),#efeeed);
+    
+   
+    
+  }
+  
+  .p-szolgaltatasok {
+    font-weight: bold;
+    text-decoration: underline 1px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .szolgaltatasok {
+    
+    text-align: left;
+  }
+  
+  .adomany-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+  
+  .h3-adomany {
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  
+  .adomany-p {
+    padding-top:  20px;
+  }
+  
+  .alkalom-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+  
+  .h3-szolgaltatasok {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  
+  .alkalom-p {
+    padding-top:  20px;
+  }
+  
+  .alkalom-foglalass {
+    padding: 7px;
+    margin-left: 3rem;
+    /* background-color: #dbd7dd; */
+    border-radius: 5px;
+    color: var(--white);
+    /* text-shadow: 1px 1px 6px #615b5b; */
+    font-size: 1rem;
+    text-decoration: none;
+    align-items: center;
+    
+  }
+  .alkalom-foglalas {
+    padding: 7px;
+    margin-left: 3rem;
+    background-color: #dbd7dd;
+    border-radius: 5px;
+    color: var(--black);
+    text-shadow: 1px 1px 6px #615b5b;
+    font-size: 1rem;
+    text-decoration: none;
+    align-items: center;
+    
+  }
+  
+  .h3-csoportos {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  .csoportos-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .csoportos-p {
+    padding-top: 20px;
+  }
+  
+  .csoportos-foglalas {
+    padding: 7px;
+    margin-left: 3rem;
+    background-color: #dbd7dd;
+    border-radius: 5px;
+    color: var(--black);
+    text-shadow: 1px 1px 6px #615b5b;
+    font-size: 1rem;
+    text-decoration: none;
+    align-items: center;
+    
+  }
+  
+  .h3-egyhonap {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  
+  .egyhonap-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .egyhonap {
+    padding-top: 20px;
+  }
+  
+  .egyhonap-foglalas {
+    padding: 7px;
+    margin-left: 3rem;
+    background-color: #dbd7dd;
+    border-radius: 5px;
+    color: var(--black);
+    text-shadow: 1px 1px 6px #615b5b;
+    font-size: 1rem;
+    text-decoration: none;
+    align-items: center;
+  
+  }
+  
+  .bejelentkezes {
+    padding: 20px;
+  }
+  
+  .idopontfoglalas {
+    text-align: center;
+  }
+  
+  .hirlevel {
+    padding: 20px;
+    margin-left: 25%;
+    margin-right: auto;
+  }
+  
+  
+  .kapcsolat-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  .span2 {
+    background-color: var(--gray);
+    color: var(--white);
+    padding: 7px;
+    
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .nev {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+  }
+  
+  .email {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+  }
+  
+  .uzenet {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .kuld {
+    margin-top: 10px;
+    background-color: var(--gray);
+    color: var(--white);
+    padding: 7px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin-left: 20%; */
+    /* margin-right: 20%; */
+    background-color: var(--gray);
+    /* opacity: 0.7; */
+    
+  
+  }
+  
+  
+  footer i {
+    color: var(--white);
+    padding: 20px;
+    font-size: 2rem;
+  }
+  
+  .fa-solid {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    text-shadow: 1px 1px 6px #615b5b;
+    color: var(--gray);
+    font-size: 2rem;
+  }
+  
+  .copy {
+    background-color: var(--gray);
+    /* opacity: 0.7; */
+    color: var(--white);
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 1000px ) {
+    .main {
+      margin-left: 5rem;
+      margin-right: 5rem;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 800px ) {
+    .main {
+      margin-left: 2rem;
+      margin-right: 2rem;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 700px ) {
+    .main {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  
+    ul {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+    font-size: 1.2rem;
+  
+    
+  }
+  
+    .mantra {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  
+    .h2-szolgaltatasok {
+      padding: 20px;
+      text-align: center;
+      
+    }
+  
+    .szolgaltatasok {
+      padding-top: 0px;
+      text-align: left;
+    }
+  
+  
+    .p-szolgaltatasok {
+      font-weight: bold;
+      text-decoration: underline 1px;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.2rem;
+    }
+    
+    .alkalom-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .alkalom {
+      padding: 0;
+    }
+  
+     .csoportos-div {
+      flex-direction: column;
+     }
+    
+     .egyhonap-div {
+      flex-direction: column;
+     }
+  }
