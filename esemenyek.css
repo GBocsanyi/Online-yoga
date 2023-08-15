@@ -137,28 +137,56 @@ p {
 }
 
 .esemeny1 {
-  background-color: #ceccca65;
-  border: solid rgba(0, 0, 0, 0.156) 2px;
+  background-color: #efeeed;
+  /* border: solid rgba(0, 0, 0, 0.156) 2px; */
   border-radius: 15px;
   padding-bottom: 2rem;
   margin-bottom: 2rem;
+  -webkit-box-shadow: 14px 17px 15px 1px rgba(158,155,158,0.68);
+  -moz-box-shadow: 14px 17px 15px 1px rgba(158,155,158,0.68);
+  box-shadow: 14px 17px 15px 1px rgba(158,155,158,0.68);
   }
 
   .esemeny2 {
-  background-color: #ceccca65;
-  border: solid rgba(0, 0, 0, 0.156) 2px;
-  border-radius: 15px;
-  padding-bottom: 2rem;
-  margin-bottom: 2rem;
+    background-color: #efeeed;
+    /* border: solid rgba(0, 0, 0, 0.156) 2px; */
+    border-radius: 15px;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    -webkit-box-shadow: 14px 17px 15px 1px rgba(158,155,158,0.68);
+    -moz-box-shadow: 14px 17px 15px 1px rgba(158,155,158,0.68);
+    box-shadow: 14px 17px 15px 1px rgba(158,155,158,0.68);
   }
 
   .esemeny3 {
-  background-color: #ceccca65;
-  border: solid rgba(0, 0, 0, 0.156) 2px;
-  border-radius: 15px;
-  padding-bottom: 2rem;
-  margin-bottom: 2rem;
+    background-color: #efeeed;
+    /* border: solid rgba(0, 0, 0, 0.156) 2px; */
+    border-radius: 15px;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    -webkit-box-shadow: 14px 17px 15px 1px rgba(158,155,158,0.68);
+    -moz-box-shadow: 14px 17px 15px 1px rgba(158,155,158,0.68);
+    box-shadow: 14px 17px 15px 1px rgba(158,155,158,0.68);
   }
+
+  .esemenygomb {
+    background-color: rgb(24, 24, 24);
+    color: var(--white);
+    border: #111111;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    
+    
+    
+  }
+  .esemenygomb:hover {
+       background-color: rgb(233, 226, 226);
+       color:rgb(27, 26, 26);
+       transition-duration: 0.5s;
+       box-shadow: 2px 2px black;
+    }
  
 
 .rolam-h3 {
